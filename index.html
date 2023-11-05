@@ -57,11 +57,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/ComicBookCanada.loader.js";
+      var loaderUrl = buildUrl + "/ComicBooksCanada.loader.js";
       var config = {
-        dataUrl: buildUrl + "/ComicBookCanada.data.unityweb",
-        frameworkUrl: buildUrl + "/ComicBookCanada.framework.js.unityweb",
-        codeUrl: buildUrl + "/ComicBookCanada.wasm.unityweb",
+        dataUrl: buildUrl + "/ComicBooksCanada.data.unityweb",
+        frameworkUrl: buildUrl + "/ComicBooksCanada.framework.js.unityweb",
+        codeUrl: buildUrl + "/ComicBooksCanada.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "The Super Challenge",
         productName: "Comic Books Canada",
@@ -98,7 +98,6 @@
         canvas.style.height = "640px";
       }
 
-      canvas.style.background = "url('" + buildUrl + "/ComicBookCanada.jpg.unityweb') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
